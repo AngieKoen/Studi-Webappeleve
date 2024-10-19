@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         document.getElementById('formulaireConnexion').addEventListener('submit', (e) => {
             e.preventDefault();
-            // Ici, vous ajouteriez la logique de connexion
+            
             alert('Fonctionnalité de connexion à implémenter');
         });
     }
