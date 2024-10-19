@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Charger la page d'accueil par défaut
+   
     chargerPage('accueil');
 });
 
