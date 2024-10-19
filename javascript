@@ -66,6 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function ajouterAuPanier(idOffre) {
-    // Ici, vous ajouteriez la logique pour ajouter au panier
+    
     alert(`Offre ${idOffre} ajoutée au panier`);
 }
