@@ -1,0 +1,22 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+const port = 3000;
+
+app.use(express.static('public'));
+app.use(express.json());
+
+// Simuler une base de données
+const offres = [
+    { id: 1, nom: 'Offre Solo', prix: 50 },
+    { id: 2, nom: 'Offre Duo', prix: 90 },
+    { id: 3, nom: 'Offre Familiale', prix: 160 }
+];
+
+app.get('/api/offres', (req, res) => {
+    res.json(offres);
+});
+
+app.listen(port, () => {
+    console.log(`Serveur démarré sur http://localhost:${port}`);
+});
