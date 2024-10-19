@@ -6,7 +6,6 @@ const port = 3000;
 app.use(express.static('public'));
 app.use(express.json());
 
-// Simuler une base de données
 const offres = [
     { id: 1, nom: 'Offre Solo', prix: 50 },
     { id: 2, nom: 'Offre Duo', prix: 90 },
